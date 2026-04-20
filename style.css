@@ -4,6 +4,7 @@ ul {
   padding: 0;
   background-color: #ff7cc2;
   display: flex;
+  justify-content: center;
 }
 
 ul li a {
@@ -35,10 +36,30 @@ body {
   font-size: 40px;
 }
 
+.github-link {
+  font-size: 40px;
+}
+
 .paragraph-project {
   font-size: 30px;
   margin: 20px;
   padding-left: 300px;
   padding-right: 300px;
   background-color: #ff7cc2;
+  background-clip: content-box;
+}
+
+.paragraph-about {
+  font-size: 30px;
+  margin: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: #ff7cc2;
+  background-clip: 700px;
+}
+
+.image-about {
+  width: 700px;
+  height: auto;
+  outline: 7px solid #ff7cc2;
 }
