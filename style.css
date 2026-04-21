@@ -5,6 +5,7 @@ ul {
   background-color: #ff7cc2;
   display: flex;
   justify-content: center;
+  border-radius: 25% / 25%;
 }
 
 ul li a {
@@ -20,8 +21,8 @@ ul li a:hover {
 }
 
 body {
-  background-color: #ffb0da;
   text-align: center;
+  background-image: linear-gradient(rgb(254, 161, 211), rgb(255, 96, 181))
 }
 
 .figma-link {
@@ -41,12 +42,14 @@ body {
 }
 
 .paragraph-project {
-  font-size: 30px;
+  font-family: "B612 Mono", monospace;
+  font-size: 25px;
   margin: 20px;
   padding-left: 300px;
   padding-right: 300px;
   background-color: #ff7cc2;
-  background-clip: content-box;
+  background-clip:padding-box;
+  border-radius: 25%;
 }
 
 .paragraph-about {
@@ -62,4 +65,19 @@ body {
   width: 700px;
   height: auto;
   outline: 7px solid #ff7cc2;
+}
+
+h1 {
+    font-family: "Megrim", system-ui;
+    font-size: 60px;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-shadow: black 2px 2px;
+}
+
+h2 {
+  font-family: "Megrim", system-ui;
+  font-style: oblique;
+    text-shadow: black 2px 2px;
+    font-size: 45px;
 }
